@@ -716,6 +716,12 @@ Source: &lt;a href="https://search.kemet.com/component-documentation/download/sp
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="+5V" urn="urn:adsk.eagle:symbol:26929/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="+3V3" urn="urn:adsk.eagle:component:26981/1" prefix="+3V3" library_version="1">
@@ -735,6 +741,19 @@ Source: &lt;a href="https://search.kemet.com/component-documentation/download/sp
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+5V" urn="urn:adsk.eagle:component:26963/1" prefix="P+" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -1946,7 +1965,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="M1" library="microphon" library_urn="urn:adsk.eagle:library:297" deviceset="ELECTRET_MICROPHON-" device="WM.64PN" package3d_urn="urn:adsk.eagle:package:21039/1"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+5v"/>
 <part name="S1" library="MJTP1212C" deviceset="MJTP1212C" device=""/>
 <part name="R10" library="0805S8F1202P5E" deviceset="0805S8F1202P5E" device="" value="10K"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -1973,7 +1991,7 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J2" library="B2B-PH-K-S_LF__SN_" deviceset="B2B-PH-K-S_LF__SN_" device=""/>
 <part name="C8" library="C0805J104K1RACAUTO" deviceset="C0805J104K1RACAUTO" device="" value="10U"/>
-<part name="J3" library="TSW-104-07-G-S" deviceset="TSW-104-07-G-S" device=""/>
+<part name="OLED" library="TSW-104-07-G-S" deviceset="TSW-104-07-G-S" device=""/>
 <part name="IC5" library="LP38692MP-3.3_NOPB" deviceset="LP38692MP-3.3_NOPB" device=""/>
 <part name="J4" library="PJ-202AH" deviceset="PJ-202AH" device=""/>
 <part name="+3V12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+5v"/>
@@ -1998,6 +2016,7 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2151,9 +2170,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <instance part="GND14" gate="1" x="254" y="40.64" smashed="yes">
 <attribute name="VALUE" x="251.46" y="38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V13" gate="G$1" x="15.24" y="68.58" smashed="yes">
-<attribute name="VALUE" x="17.018" y="71.12" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="S1" gate="G$1" x="154.94" y="129.54" smashed="yes" rot="R270">
 <attribute name="NAME" x="162.56" y="102.87" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="160.02" y="102.87" size="1.778" layer="96" rot="R270" align="center-left"/>
@@ -2248,7 +2264,7 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <attribute name="NAME" x="168.91" y="34.29" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="168.91" y="29.21" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
-<instance part="J3" gate="G$1" x="243.84" y="50.8" smashed="yes" rot="R180">
+<instance part="OLED" gate="G$1" x="243.84" y="50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="245.11" y="40.64" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="245.11" y="43.18" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
@@ -2326,6 +2342,9 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <instance part="+3V15" gate="G$1" x="304.8" y="76.2" smashed="yes">
 <attribute name="VALUE" x="306.578" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="P+1" gate="1" x="15.24" y="66.04" smashed="yes">
+<attribute name="VALUE" x="12.7" y="60.96" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2378,7 +2397,7 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 </segment>
 <segment>
 <label x="246.38" y="55.88" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="3"/>
+<pinref part="OLED" gate="G$1" pin="3"/>
 <wire x1="243.84" y1="55.88" x2="251.46" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2480,7 +2499,7 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="243.84" y1="50.8" x2="254" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="254" y1="50.8" x2="254" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="OLED" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND_1"/>
@@ -2575,6 +2594,12 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <wire x1="33.02" y1="142.24" x2="33.02" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="GND_TAB"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="345.44" y1="66.04" x2="353.06" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="66.04" x2="353.06" y2="58.42" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="INT" class="0">
 <segment>
@@ -2651,7 +2676,7 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <net name="SDA." class="0">
 <segment>
 <label x="246.38" y="58.42" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="4"/>
+<pinref part="OLED" gate="G$1" pin="4"/>
 <wire x1="243.84" y1="58.42" x2="251.46" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2718,16 +2743,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="VBUS_2"/>
-<wire x1="22.86" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="40.64" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="VBUS_1"/>
-<wire x1="15.24" y1="66.04" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="55.88" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
-<junction x="15.24" y="55.88"/>
-<pinref part="+3V13" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="284.48" y1="58.42" x2="279.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="58.42" x2="279.4" y2="66.04" width="0.1524" layer="91"/>
@@ -2790,7 +2805,7 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <segment>
 <wire x1="243.84" y1="53.34" x2="254" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="254" y1="53.34" x2="254" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="OLED" gate="G$1" pin="2"/>
 <pinref part="+3V16" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -2842,8 +2857,10 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="60.96" x2="304.8" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="+3V15" gate="G$1" pin="+3V3"/>
+<pinref part="IC5" gate="G$1" pin="OUT"/>
+<wire x1="304.8" y1="73.66" x2="304.8" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="60.96" x2="314.96" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -2972,22 +2989,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <junction x="309.88" y="58.42"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUT"/>
-<wire x1="314.96" y1="60.96" x2="304.8" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="60.96" x2="304.8" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="GND_TAB"/>
-<wire x1="345.44" y1="66.04" x2="353.06" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="66.04" x2="353.06" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="353.06" y1="66.04" x2="353.06" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="RXD" class="0">
 <segment>
 <pinref part="IC6" gate="G$1" pin="RXD"/>
@@ -3018,6 +3019,18 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <wire x1="38.1" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="124.46" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="VBUS_2"/>
+<wire x1="22.86" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="40.64" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="VBUS_1"/>
+<wire x1="15.24" y1="55.88" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
+<wire x1="15.24" y1="63.5" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
+<junction x="15.24" y="55.88"/>
 </segment>
 </net>
 </nets>
