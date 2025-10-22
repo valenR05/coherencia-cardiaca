@@ -1224,83 +1224,6 @@ Various Types</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="MJTP1212C">
-<description>&lt;Tactile Switches 12MM PC MOUNT&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="MJTP1212C">
-<description>&lt;b&gt;MJTP1212C-2&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.2" diameter="1.8"/>
-<pad name="2" x="12.5" y="0" drill="1.2" diameter="1.8"/>
-<pad name="3" x="0" y="-5" drill="1.2" diameter="1.8"/>
-<pad name="4" x="12.5" y="-5" drill="1.2" diameter="1.8"/>
-<text x="5.7" y="-2.5" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="5.7" y="-2.5" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="0.25" y1="3.5" x2="12.25" y2="3.5" width="0.2" layer="51"/>
-<wire x1="12.25" y1="3.5" x2="12.25" y2="-8.5" width="0.2" layer="51"/>
-<wire x1="12.25" y1="-8.5" x2="0.25" y2="-8.5" width="0.2" layer="51"/>
-<wire x1="0.25" y1="-8.5" x2="0.25" y2="3.5" width="0.2" layer="51"/>
-<wire x1="-3" y1="4.5" x2="14.4" y2="4.5" width="0.1" layer="51"/>
-<wire x1="14.4" y1="4.5" x2="14.4" y2="-9.5" width="0.1" layer="51"/>
-<wire x1="14.4" y1="-9.5" x2="-3" y2="-9.5" width="0.1" layer="51"/>
-<wire x1="-3" y1="-9.5" x2="-3" y2="4.5" width="0.1" layer="51"/>
-<wire x1="0.25" y1="1.5" x2="0.25" y2="3.5" width="0.1" layer="21"/>
-<wire x1="0.25" y1="3.5" x2="12.25" y2="3.5" width="0.1" layer="21"/>
-<wire x1="12.25" y1="3.5" x2="12.25" y2="1.5" width="0.1" layer="21"/>
-<wire x1="0.25" y1="-6.5" x2="0.25" y2="-8.5" width="0.1" layer="21"/>
-<wire x1="0.25" y1="-8.5" x2="12.25" y2="-8.5" width="0.1" layer="21"/>
-<wire x1="12.25" y1="-8.5" x2="12.25" y2="-6.5" width="0.1" layer="21"/>
-<wire x1="-2" y1="0" x2="-2" y2="0" width="0.2" layer="21"/>
-<wire x1="-2" y1="0" x2="-1.8" y2="0" width="0.2" layer="21" curve="180"/>
-<wire x1="-1.8" y1="0" x2="-1.8" y2="0" width="0.2" layer="21"/>
-<wire x1="-1.8" y1="0" x2="-2" y2="0" width="0.2" layer="21" curve="180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MJTP1212C">
-<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-5.08" x2="25.4" y2="2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="COM_1" x="0" y="0" length="middle"/>
-<pin name="COM_2" x="30.48" y="0" length="middle" rot="R180"/>
-<pin name="NO_1" x="0" y="-2.54" length="middle"/>
-<pin name="NO_2" x="30.48" y="-2.54" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MJTP1212C" prefix="S">
-<description>&lt;b&gt;Tactile Switches 12MM PC MOUNT&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/dk/DKDS-1/4618.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="MJTP1212C" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MJTP1212C">
-<connects>
-<connect gate="G$1" pin="COM_1" pad="1"/>
-<connect gate="G$1" pin="COM_2" pad="2"/>
-<connect gate="G$1" pin="NO_1" pad="3"/>
-<connect gate="G$1" pin="NO_2" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Tactile Switches 12MM PC MOUNT" constant="no"/>
-<attribute name="HEIGHT" value="7.3mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Apem" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MJTP1212C" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="642-MJTP1212C" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Apem/MJTP1212C?qs=d0WKAl%252BL4KZXlvxqweZKKg%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="UJ20-C-H-G-MSMT-P16-TR-67">
 <description>&lt;USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -1514,71 +1437,6 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pd
 </deviceset>
 </devicesets>
 </library>
-<library name="B2B-PH-K-S_LF__SN_">
-<description>&lt;Conn Shrouded Header HDR 2 POS 2mm Solder ST Thru-Hole Box&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SHDR2W50P0X200_1X2_590X450X600">
-<description>&lt;b&gt;B2B-PH-K-S(LF)(SN)&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="0.7" diameter="1.1" shape="square"/>
-<pad name="2" x="-2" y="0" drill="0.7" diameter="1.1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="2.2" y1="-1.95" x2="-4.2" y2="-1.95" width="0.05" layer="51"/>
-<wire x1="-4.2" y1="-1.95" x2="-4.2" y2="3.05" width="0.05" layer="51"/>
-<wire x1="-4.2" y1="3.05" x2="2.2" y2="3.05" width="0.05" layer="51"/>
-<wire x1="2.2" y1="3.05" x2="2.2" y2="-1.95" width="0.05" layer="51"/>
-<wire x1="1.95" y1="-1.7" x2="-3.95" y2="-1.7" width="0.1" layer="51"/>
-<wire x1="-3.95" y1="-1.7" x2="-3.95" y2="2.8" width="0.1" layer="51"/>
-<wire x1="-3.95" y1="2.8" x2="1.95" y2="2.8" width="0.1" layer="51"/>
-<wire x1="1.95" y1="2.8" x2="1.95" y2="-1.7" width="0.1" layer="51"/>
-<wire x1="0" y1="-1.7" x2="-3.95" y2="-1.7" width="0.2" layer="21"/>
-<wire x1="-3.95" y1="-1.7" x2="-3.95" y2="2.8" width="0.2" layer="21"/>
-<wire x1="-3.95" y1="2.8" x2="1.95" y2="2.8" width="0.2" layer="21"/>
-<wire x1="1.95" y1="2.8" x2="1.95" y2="0" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="B2B-PH-K-S_LF__SN_">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" length="middle"/>
-<pin name="2" x="0" y="-2.54" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="B2B-PH-K-S_LF__SN_" prefix="J">
-<description>&lt;b&gt;Conn Shrouded Header HDR 2 POS 2mm Solder ST Thru-Hole Box&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B2B-PH-K-S-LF-SN_C131337.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="B2B-PH-K-S_LF__SN_" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SHDR2W50P0X200_1X2_590X450X600">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Conn Shrouded Header HDR 2 POS 2mm Solder ST Thru-Hole Box" constant="no"/>
-<attribute name="HEIGHT" value="6mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B2B-PH-K-S(LF)(SN)" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="306-B2BPHKSLFSNPP" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/JST-Commercial/B2B-PH-K-SLFSN?qs=cdbOS8ANM9AlozzPlOt72g%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TSW-104-07-G-S">
 <description>&lt;Samtec, TSW, 4 Way, 1 Row, Straight Pin Header&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -1730,73 +1588,75 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp38692.pdf"&gt; Datasheet 
 </deviceset>
 </devicesets>
 </library>
-<library name="PJ-202AH">
-<description>&lt;2.0 x 6.5 mm, 5.0 A, Horizontal, Through Hole, Kinked Pins, Dc Power Jack Connector&lt;/b&gt;&lt;p&gt;
+<library name="1769">
+<description>&lt;Adafruit Accessories JST-PH 2-pin SMT Right Angle Connect&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="PJ202AH">
-<description>&lt;b&gt;PJ-202AH-3&lt;/b&gt;&lt;br&gt;
+<package name="1769">
+<description>&lt;b&gt;1769&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="0" y="0" drill="3.64" diameter="4.4" shape="square"/>
-<pad name="2" x="6" y="0" drill="3.16" diameter="4.3"/>
-<pad name="3" x="3" y="4.7" drill="3.16" diameter="4.3"/>
-<text x="5.7" y="1.285" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="5.7" y="1.285" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.7" y1="4.5" x2="13.7" y2="4.5" width="0.1" layer="51"/>
-<wire x1="13.7" y1="4.5" x2="13.7" y2="-4.5" width="0.1" layer="51"/>
-<wire x1="13.7" y1="-4.5" x2="-0.7" y2="-4.5" width="0.1" layer="51"/>
-<wire x1="-0.7" y1="-4.5" x2="-0.7" y2="4.5" width="0.1" layer="51"/>
-<wire x1="-3.3" y1="8.07" x2="14.7" y2="8.07" width="0.1" layer="51"/>
-<wire x1="14.7" y1="8.07" x2="14.7" y2="-5.5" width="0.1" layer="51"/>
-<wire x1="14.7" y1="-5.5" x2="-3.3" y2="-5.5" width="0.1" layer="51"/>
-<wire x1="-3.3" y1="-5.5" x2="-3.3" y2="8.07" width="0.1" layer="51"/>
-<wire x1="-0.7" y1="-2.75" x2="-0.7" y2="-4.5" width="0.2" layer="21"/>
-<wire x1="-0.7" y1="-4.5" x2="13.7" y2="-4.5" width="0.2" layer="21"/>
-<wire x1="13.7" y1="-4.5" x2="13.7" y2="4.5" width="0.2" layer="21"/>
-<wire x1="13.7" y1="4.5" x2="6" y2="4.5" width="0.2" layer="21"/>
-<wire x1="0.1" y1="4.5" x2="-0.7" y2="4.5" width="0.2" layer="21"/>
-<wire x1="-0.7" y1="4.5" x2="-0.7" y2="2.75" width="0.2" layer="21"/>
-<wire x1="-2.9" y1="0" x2="-2.9" y2="0" width="0.1" layer="21"/>
-<wire x1="-2.9" y1="0" x2="-2.8" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-2.8" y1="0" x2="-2.8" y2="0" width="0.1" layer="21"/>
-<wire x1="-2.8" y1="0" x2="-2.9" y2="0" width="0.1" layer="21" curve="180"/>
+<smd name="1" x="-1" y="0" dx="3.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="1" y="0" dx="3.5" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="-3.35" y="-5.55" dx="3.4" dy="1.5" layer="1" rot="R90"/>
+<smd name="4" x="3.35" y="-5.55" dx="3.4" dy="1.5" layer="1" rot="R90"/>
+<text x="0" y="-2.321" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-2.321" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.95" y1="0" x2="3.95" y2="0" width="0.2" layer="51"/>
+<wire x1="3.95" y1="0" x2="3.95" y2="-6.849" width="0.2" layer="51"/>
+<wire x1="3.95" y1="-6.849" x2="-3.95" y2="-6.849" width="0.2" layer="51"/>
+<wire x1="-3.95" y1="-6.849" x2="-3.95" y2="0" width="0.2" layer="51"/>
+<wire x1="-5.1" y1="3.608" x2="5.1" y2="3.608" width="0.1" layer="51"/>
+<wire x1="5.1" y1="3.608" x2="5.1" y2="-8.25" width="0.1" layer="51"/>
+<wire x1="5.1" y1="-8.25" x2="-5.1" y2="-8.25" width="0.1" layer="51"/>
+<wire x1="-5.1" y1="-8.25" x2="-5.1" y2="3.608" width="0.1" layer="51"/>
+<wire x1="-3.95" y1="0" x2="-3.95" y2="-3.425" width="0.2" layer="21"/>
+<wire x1="3.95" y1="0" x2="3.95" y2="-3.425" width="0.2" layer="21"/>
+<wire x1="-3.95" y1="0" x2="-1.9" y2="0" width="0.2" layer="21"/>
+<wire x1="3.95" y1="0" x2="1.9" y2="0" width="0.2" layer="21"/>
+<wire x1="-2.196" y1="-6.849" x2="2.196" y2="-6.849" width="0.2" layer="21"/>
+<wire x1="-1.095" y1="2.582" x2="-1.095" y2="2.582" width="0.052" layer="21"/>
+<wire x1="-1.095" y1="2.582" x2="-1.043" y2="2.582" width="0.052" layer="21" curve="180"/>
+<wire x1="-1.043" y1="2.582" x2="-1.043" y2="2.582" width="0.052" layer="21"/>
+<wire x1="-1.043" y1="2.582" x2="-1.095" y2="2.582" width="0.052" layer="21" curve="180"/>
 </package>
 </packages>
 <symbols>
-<symbol name="PJ-202AH">
+<symbol name="1769">
 <wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
 <text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" length="middle"/>
-<pin name="2" x="0" y="-2.54" length="middle"/>
-<pin name="3" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="1" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="2" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="3" x="0" y="0" length="middle"/>
+<pin name="4" x="0" y="-2.54" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PJ-202AH" prefix="J">
-<description>&lt;b&gt;2.0 x 6.5 mm, 5.0 A, Horizontal, Through Hole, Kinked Pins, Dc Power Jack Connector&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.sameskydevices.com/product/resource/pj-202ah.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="1769" prefix="J">
+<description>&lt;b&gt;Adafruit Accessories JST-PH 2-pin SMT Right Angle Connect&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="PJ-202AH" x="0" y="0"/>
+<gate name="G$1" symbol="1769" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PJ202AH">
+<device name="" package="1769">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="2.0 x 6.5 mm, 5.0 A, Horizontal, Through Hole, Kinked Pins, Dc Power Jack Connector" constant="no"/>
-<attribute name="HEIGHT" value="11.2mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Same Sky" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PJ-202AH" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="490-PJ-202AH" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Same-Sky/PJ-202AH?qs=WyjlAZoYn52pjAZoaa7Syg%3D%3D" constant="no"/>
+<attribute name="DESCRIPTION" value="Adafruit Accessories JST-PH 2-pin SMT Right Angle Connect" constant="no"/>
+<attribute name="HEIGHT" value="5.5mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Adafruit" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1769" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="485-1769" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Adafruit/1769?qs=GURawfaeGuBbgoGtf2XstA%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1804,121 +1664,171 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/pj-202ah.pdf
 </deviceset>
 </devicesets>
 </library>
-<library name="CP2102N-A02-GQFN20R">
-<description>&lt;Full Speed USB to UART Bridge USB 2.0 3.3V T/R Automotive 20-Pin QFN EP&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<library name="PCM13SMTR">
 <packages>
-<package name="CP2102NA02GQFN20">
-<description>&lt;b&gt;QFN20_FFW&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.25" y="1.25" dx="0.3" dy="0.3" layer="1" rot="R90"/>
-<smd name="2" x="-1.55" y="0.75" dx="0.9" dy="0.3" layer="1"/>
-<smd name="3" x="-1.55" y="0.25" dx="0.9" dy="0.3" layer="1"/>
-<smd name="4" x="-1.55" y="-0.25" dx="0.9" dy="0.3" layer="1"/>
-<smd name="5" x="-1.55" y="-0.75" dx="0.9" dy="0.3" layer="1"/>
-<smd name="6" x="-1.25" y="-1.25" dx="0.3" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="-0.75" y="-1.55" dx="0.9" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="-0.25" y="-1.55" dx="0.9" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="0.25" y="-1.55" dx="0.9" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="0.75" y="-1.55" dx="0.9" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="1.25" y="-1.25" dx="0.3" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="1.55" y="-0.75" dx="0.9" dy="0.3" layer="1"/>
-<smd name="13" x="1.55" y="-0.25" dx="0.9" dy="0.3" layer="1"/>
-<smd name="14" x="1.55" y="0.25" dx="0.9" dy="0.3" layer="1"/>
-<smd name="15" x="1.55" y="0.75" dx="0.9" dy="0.3" layer="1"/>
-<smd name="16" x="1.25" y="1.25" dx="0.3" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="0.75" y="1.55" dx="0.9" dy="0.3" layer="1" rot="R90"/>
-<smd name="18" x="0.25" y="1.55" dx="0.9" dy="0.3" layer="1" rot="R90"/>
-<smd name="19" x="-0.25" y="1.55" dx="0.9" dy="0.3" layer="1" rot="R90"/>
-<smd name="20" x="-0.75" y="1.55" dx="0.9" dy="0.3" layer="1" rot="R90"/>
-<smd name="21" x="0" y="0" dx="1.8" dy="1.8" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.2" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.2" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.2" layer="51"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.2" layer="51"/>
-<wire x1="-2.6" y1="2.6" x2="2.6" y2="2.6" width="0.1" layer="51"/>
-<wire x1="2.6" y1="2.6" x2="2.6" y2="-2.6" width="0.1" layer="51"/>
-<wire x1="2.6" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1" layer="51"/>
-<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="2.6" width="0.1" layer="51"/>
-<wire x1="-1.9" y1="1.3" x2="-1.9" y2="1.3" width="0.1" layer="21"/>
-<wire x1="-1.9" y1="1.3" x2="-2" y2="1.3" width="0.1" layer="21" curve="180"/>
-<wire x1="-2" y1="1.3" x2="-2" y2="1.3" width="0.1" layer="21"/>
-<wire x1="-2" y1="1.3" x2="-1.9" y2="1.3" width="0.1" layer="21" curve="180"/>
+<package name="SW_PCM13SMTR">
+<wire x1="-4.85" y1="1.3" x2="4.85" y2="1.3" width="0.2" layer="51"/>
+<wire x1="4.25" y1="-1.3" x2="1.5" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-1.3" x2="-1.5" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="-1.3" x2="-4.25" y2="-1.3" width="0.2" layer="21"/>
+<circle x="-3.9" y="2.1" radius="0.14141875" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="-1.3" x2="-1.5" y2="-2.7" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="-2.7" x2="1.5" y2="-2.7" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-2.7" x2="1.5" y2="-1.3" width="0.2" layer="21"/>
+<text x="-6.111259375" y="-1.40258125" size="1.272340625" layer="25" rot="R90">&gt;NAME</text>
+<text x="7.31118125" y="-1.7026" size="1.271940625" layer="27" rot="R90">&gt;VALUE</text>
+<hole x="-2.5" y="0" drill="0.9"/>
+<hole x="2.5" y="0" drill="0.9"/>
+<smd name="1" x="-3" y="1.75" dx="0.7" dy="1.5" layer="1"/>
+<smd name="2" x="-1.5" y="1.75" dx="0.7" dy="1.5" layer="1"/>
+<smd name="3" x="1.5" y="1.75" dx="0.7" dy="1.5" layer="1"/>
+<smd name="4" x="3" y="1.75" dx="0.7" dy="1.5" layer="1"/>
+<smd name="P$1" x="-5.15" y="1.1" dx="1" dy="0.8" layer="1"/>
+<smd name="P$2" x="-5.15" y="-1.1" dx="1" dy="0.8" layer="1"/>
+<smd name="P$3" x="5.15" y="1.1" dx="1" dy="0.8" layer="1"/>
+<smd name="P$4" x="5.15" y="-1.1" dx="1" dy="0.8" layer="1"/>
 </package>
 </packages>
 <symbols>
-<symbol name="CP2102N-A02-GQFN20R">
-<wire x1="5.08" y1="2.54" x2="45.72" y2="2.54" width="0.254" layer="94"/>
-<wire x1="45.72" y1="-27.94" x2="45.72" y2="2.54" width="0.254" layer="94"/>
-<wire x1="45.72" y1="-27.94" x2="5.08" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-27.94" width="0.254" layer="94"/>
-<text x="46.99" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="46.99" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="GPIO.1_/_RS485" x="0" y="0" length="middle"/>
-<pin name="GPIO.0_/_CLK" x="0" y="-2.54" length="middle"/>
-<pin name="GND_1" x="0" y="-5.08" length="middle"/>
-<pin name="D+" x="0" y="-7.62" length="middle"/>
-<pin name="D-" x="0" y="-10.16" length="middle"/>
-<pin name="VDD" x="0" y="-12.7" length="middle"/>
-<pin name="VREGIN" x="0" y="-15.24" length="middle"/>
-<pin name="VBUS" x="0" y="-17.78" length="middle"/>
-<pin name="RSTB" x="0" y="-20.32" length="middle"/>
-<pin name="NC" x="0" y="-22.86" length="middle" direction="nc"/>
-<pin name="SUSPENDB" x="0" y="-25.4" length="middle"/>
-<pin name="GND_2" x="50.8" y="0" length="middle" rot="R180"/>
-<pin name="WAKEUP" x="50.8" y="-2.54" length="middle" rot="R180"/>
-<pin name="SUSPEND" x="50.8" y="-5.08" length="middle" rot="R180"/>
-<pin name="CTS" x="50.8" y="-7.62" length="middle" rot="R180"/>
-<pin name="RTS" x="50.8" y="-10.16" length="middle" rot="R180"/>
-<pin name="RXD" x="50.8" y="-12.7" length="middle" rot="R180"/>
-<pin name="TXD" x="50.8" y="-15.24" length="middle" rot="R180"/>
-<pin name="GPIO.3_/_RXT" x="50.8" y="-17.78" length="middle" rot="R180"/>
-<pin name="GPIO.2_/_TXT" x="50.8" y="-20.32" length="middle" rot="R180"/>
-<pin name="EP_GND" x="50.8" y="-22.86" length="middle" rot="R180"/>
+<symbol name="PCM13SMTR">
+<circle x="2.54" y="2.54" radius="0.508" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="0.508" width="0.254" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.508" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-3.048" y="0"/>
+<vertex x="-2.54" y="0.508"/>
+<vertex x="-2.032" y="0"/>
+<vertex x="-2.54" y="-0.508"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.032" y="0"/>
+<vertex x="2.54" y="0.508"/>
+<vertex x="3.048" y="0"/>
+<vertex x="2.54" y="-0.508"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.032" y="2.54"/>
+<vertex x="2.54" y="2.032"/>
+<vertex x="3.048" y="2.54"/>
+<vertex x="2.54" y="3.048"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.032" y="-2.54"/>
+<vertex x="2.54" y="-2.032"/>
+<vertex x="3.048" y="-2.54"/>
+<vertex x="2.54" y="-3.048"/>
+</polygon>
+<text x="-5.08978125" y="5.08978125" size="1.27245" layer="95">&gt;NAME</text>
+<text x="-5.08605" y="-7.62906875" size="1.271509375" layer="96">&gt;VALUE</text>
+<pin name="3" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="1" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CP2102N-A02-GQFN20R" prefix="IC">
-<description>&lt;b&gt;Full Speed USB to UART Bridge USB 2.0 3.3V T/R Automotive 20-Pin QFN EP&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="PCM13SMTR" prefix="S">
+<description> &lt;a href="https://pricing.snapeda.com/parts/PCM13SMTR/C%26K/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="CP2102N-A02-GQFN20R" x="0" y="0"/>
+<gate name="G$1" symbol="PCM13SMTR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CP2102NA02GQFN20">
+<device name="" package="SW_PCM13SMTR">
 <connects>
-<connect gate="G$1" pin="CTS" pad="15"/>
-<connect gate="G$1" pin="D+" pad="4"/>
-<connect gate="G$1" pin="D-" pad="5"/>
-<connect gate="G$1" pin="EP_GND" pad="21"/>
-<connect gate="G$1" pin="GND_1" pad="3"/>
-<connect gate="G$1" pin="GND_2" pad="12"/>
-<connect gate="G$1" pin="GPIO.0_/_CLK" pad="2"/>
-<connect gate="G$1" pin="GPIO.1_/_RS485" pad="1"/>
-<connect gate="G$1" pin="GPIO.2_/_TXT" pad="20"/>
-<connect gate="G$1" pin="GPIO.3_/_RXT" pad="19"/>
-<connect gate="G$1" pin="NC" pad="10"/>
-<connect gate="G$1" pin="RSTB" pad="9"/>
-<connect gate="G$1" pin="RTS" pad="16"/>
-<connect gate="G$1" pin="RXD" pad="17"/>
-<connect gate="G$1" pin="SUSPEND" pad="14"/>
-<connect gate="G$1" pin="SUSPENDB" pad="11"/>
-<connect gate="G$1" pin="TXD" pad="18"/>
-<connect gate="G$1" pin="VBUS" pad="8"/>
-<connect gate="G$1" pin="VDD" pad="6"/>
-<connect gate="G$1" pin="VREGIN" pad="7"/>
-<connect gate="G$1" pin="WAKEUP" pad="13"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Full Speed USB to UART Bridge USB 2.0 3.3V T/R Automotive 20-Pin QFN EP" constant="no"/>
-<attribute name="HEIGHT" value="0.8mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Silicon Labs" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CP2102N-A02-GQFN20R" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="634-CP2102NA02QFN20R" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Silicon-Labs/CP2102N-A02-GQFN20R?qs=u16ybLDytRbf2uwPkMBdUg%3D%3D" constant="no"/>
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/PCM13SMTR/C%2526K/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value="                                                      Slide Switch SP3T Surface Mount, Right Angle                                              "/>
+<attribute name="MF" value="C&amp;K"/>
+<attribute name="MP" value="PCM13SMTR"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/PCM13SMTR/C%2526K/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="DTSM-61N-V-T_R">
+<description>&lt;Tactile Switches Surface Mounting Type 6*6&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="DTSM61NVTR">
+<description>&lt;b&gt;DTSM-61N-V-T/R-3&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.975" y="2.25" dx="1.55" dy="1.3" layer="1"/>
+<smd name="2" x="3.975" y="2.25" dx="1.55" dy="1.3" layer="1"/>
+<smd name="3" x="-3.975" y="-2.25" dx="1.55" dy="1.3" layer="1"/>
+<smd name="4" x="3.975" y="-2.25" dx="1.55" dy="1.3" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.1" y1="3.1" x2="3.1" y2="3.1" width="0.1" layer="51"/>
+<wire x1="3.1" y1="3.1" x2="3.1" y2="-3.1" width="0.1" layer="51"/>
+<wire x1="3.1" y1="-3.1" x2="-3.1" y2="-3.1" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="-3.1" x2="-3.1" y2="3.1" width="0.1" layer="51"/>
+<wire x1="-5.75" y1="4.1" x2="5.75" y2="4.1" width="0.1" layer="51"/>
+<wire x1="5.75" y1="4.1" x2="5.75" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="5.75" y1="-4.1" x2="-5.75" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="-5.75" y1="-4.1" x2="-5.75" y2="4.1" width="0.1" layer="51"/>
+<wire x1="-5.2" y1="2.2" x2="-5.2" y2="2.2" width="0.1" layer="21"/>
+<wire x1="-5.2" y1="2.2" x2="-5.3" y2="2.2" width="0.1" layer="21" curve="180"/>
+<wire x1="-5.3" y1="2.2" x2="-5.3" y2="2.2" width="0.1" layer="21"/>
+<wire x1="-5.3" y1="2.2" x2="-5.2" y2="2.2" width="0.1" layer="21" curve="180"/>
+<wire x1="-2.8" y1="3.1" x2="2.8" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-2.8" y1="-3.1" x2="2.8" y2="-3.1" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DTSM-61N-V-T_R">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="COM_1" x="0" y="0" length="middle"/>
+<pin name="COM_2" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="NO_1" x="0" y="-2.54" length="middle"/>
+<pin name="NO_2" x="30.48" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DTSM-61N-V-T_R" prefix="S">
+<description>&lt;b&gt;Tactile Switches Surface Mounting Type 6*6&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.dip.com.tw/en/en-product-information/en-switch004/item/download/2502_92b64433b455dc19d9198989b26071be"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DTSM-61N-V-T_R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DTSM61NVTR">
+<connects>
+<connect gate="G$1" pin="COM_1" pad="1"/>
+<connect gate="G$1" pin="COM_2" pad="2"/>
+<connect gate="G$1" pin="NO_1" pad="3"/>
+<connect gate="G$1" pin="NO_2" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Tactile Switches Surface Mounting Type 6*6" constant="no"/>
+<attribute name="HEIGHT" value="4.4mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Diptronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DTSM-61N-V-T/R" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="113-DTSM-61N-V-T/R" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Diptronics/DTSM-61N-V-T-R?qs=gTYE2QTfZfSEmzuLs2FKeQ%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1965,13 +1875,11 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="M1" library="microphon" library_urn="urn:adsk.eagle:library:297" deviceset="ELECTRET_MICROPHON-" device="WM.64PN" package3d_urn="urn:adsk.eagle:package:21039/1"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="S1" library="MJTP1212C" deviceset="MJTP1212C" device=""/>
 <part name="R10" library="0805S8F1202P5E" deviceset="0805S8F1202P5E" device="" value="10K"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C9" library="C0805J104K1RACAUTO" deviceset="C0805J104K1RACAUTO" device="" value="0,1U"/>
 <part name="C10" library="C0805J104K1RACAUTO" deviceset="C0805J104K1RACAUTO" device="" value="0,1U"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="S2" library="MJTP1212C" deviceset="MJTP1212C" device=""/>
 <part name="R11" library="0805S8F1202P5E" deviceset="0805S8F1202P5E" device="" value="10K"/>
 <part name="C11" library="C0805J104K1RACAUTO" deviceset="C0805J104K1RACAUTO" device="" value="0,1U"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -1983,24 +1891,15 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <part name="D2" library="52101-101-REV-A_v16" library_urn="urn:adsk.eagle:library:21899384" deviceset="LED_LED" device="CHIP-LED0603MP" package3d_urn="urn:adsk.eagle:package:15662238/2"/>
 <part name="IC4" library="MCP73831T-2ACI_OT" deviceset="MCP73831T-2ACI_OT" device=""/>
 <part name="R6" library="0805S8F1202P5E" deviceset="0805S8F1202P5E" device="" value="5,1K"/>
-<part name="+3V17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+5v"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C7" library="C0805J104K1RACAUTO" deviceset="C0805J104K1RACAUTO" device="" value="10U"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R9" library="0805S8F1202P5E" deviceset="0805S8F1202P5E" device="" value="2K"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J2" library="B2B-PH-K-S_LF__SN_" deviceset="B2B-PH-K-S_LF__SN_" device=""/>
 <part name="C8" library="C0805J104K1RACAUTO" deviceset="C0805J104K1RACAUTO" device="" value="10U"/>
 <part name="OLED" library="TSW-104-07-G-S" deviceset="TSW-104-07-G-S" device=""/>
 <part name="IC5" library="LP38692MP-3.3_NOPB" deviceset="LP38692MP-3.3_NOPB" device=""/>
-<part name="J4" library="PJ-202AH" deviceset="PJ-202AH" device=""/>
-<part name="+3V12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+5v"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC6" library="CP2102N-A02-GQFN20R" deviceset="CP2102N-A02-GQFN20R" device=""/>
-<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R13" library="0805S8F1202P5E" deviceset="0805S8F1202P5E" device="" value="10K"/>
-<part name="+3V21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -2016,7 +1915,13 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="J5" library="1769" deviceset="1769" device=""/>
+<part name="S3" library="PCM13SMTR" deviceset="PCM13SMTR" device=""/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="S4" library="DTSM-61N-V-T_R" deviceset="DTSM-61N-V-T_R" device=""/>
+<part name="S5" library="DTSM-61N-V-T_R" deviceset="DTSM-61N-V-T_R" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2032,13 +1937,13 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <wire x1="269.24" y1="157.48" x2="269.24" y2="238.76" width="0.1524" layer="94" style="longdash"/>
 <text x="297.18" y="160.02" size="1.778" layer="94">Sensor PPG (PulsiOximetro)</text>
 <wire x1="121.92" y1="193.04" x2="121.92" y2="83.82" width="0.1524" layer="94" style="longdash"/>
-<wire x1="121.92" y1="193.04" x2="264.16" y2="208.28" width="0.1524" layer="94" style="longdash"/>
-<wire x1="264.16" y1="208.28" x2="264.16" y2="83.82" width="0.1524" layer="94" style="longdash"/>
+<wire x1="121.92" y1="193.04" x2="264.16" y2="193.04" width="0.1524" layer="94" style="longdash"/>
+<wire x1="264.16" y1="193.04" x2="264.16" y2="83.82" width="0.1524" layer="94" style="longdash"/>
 <wire x1="264.16" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="94" style="longdash"/>
 <text x="238.76" y="86.36" size="1.778" layer="94">ADC + DSP + COMM</text>
 <wire x1="7.62" y1="254" x2="157.48" y2="254" width="0.1524" layer="94" style="longdash"/>
-<wire x1="157.48" y1="254" x2="157.48" y2="198.12" width="0.1524" layer="94" style="longdash"/>
-<wire x1="157.48" y1="198.12" x2="7.62" y2="195.58" width="0.1524" layer="94" style="longdash"/>
+<wire x1="157.48" y1="254" x2="157.48" y2="195.58" width="0.1524" layer="94" style="longdash"/>
+<wire x1="157.48" y1="195.58" x2="7.62" y2="195.58" width="0.1524" layer="94" style="longdash"/>
 <wire x1="7.62" y1="195.58" x2="7.62" y2="254" width="0.1524" layer="94" style="longdash"/>
 <text x="40.64" y="198.12" size="1.778" layer="94">Acondicionador de señal</text>
 <text x="144.78" y="134.62" size="1.778" layer="94" ratio="10" rot="R270">PTR1PAD1-13</text>
@@ -2061,11 +1966,9 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <wire x1="114.3" y1="88.9" x2="114.3" y2="165.1" width="0.1524" layer="94" style="longdash"/>
 <wire x1="114.3" y1="165.1" x2="10.16" y2="165.1" width="0.1524" layer="94" style="longdash"/>
 <wire x1="10.16" y1="88.9" x2="10.16" y2="165.1" width="0.1524" layer="94" style="longdash"/>
-<text x="248.92" y="139.7" size="1.778" layer="94" ratio="10" rot="R270">PTR1PAD1-13</text>
-<text x="160.02" y="109.22" size="1.778" layer="95" rot="R90">RESET</text>
-<text x="248.92" y="114.3" size="1.778" layer="95" rot="R90">FLASH</text>
-<text x="185.42" y="40.64" size="1.778" layer="95">+BATT</text>
-<text x="20.32" y="93.98" size="1.778" layer="95">COMUNICACION SERIAL UART</text>
+<text x="236.22" y="132.08" size="1.778" layer="94" ratio="10" rot="R270">PTR1PAD1-13</text>
+<text x="160.02" y="119.38" size="1.778" layer="95" rot="R90">RESET</text>
+<text x="248.92" y="121.92" size="1.778" layer="95" rot="R90">FLASH</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="106.68" y="233.68" smashed="yes">
@@ -2170,10 +2073,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <instance part="GND14" gate="1" x="254" y="40.64" smashed="yes">
 <attribute name="VALUE" x="251.46" y="38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="S1" gate="G$1" x="154.94" y="129.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="162.56" y="102.87" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="160.02" y="102.87" size="1.778" layer="96" rot="R270" align="center-left"/>
-</instance>
 <instance part="R10" gate="G$1" x="154.94" y="160.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="148.59" y="173.99" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="151.13" y="173.99" size="1.778" layer="96" rot="R90" align="center-left"/>
@@ -2192,20 +2091,16 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <instance part="GND18" gate="1" x="132.08" y="137.16" smashed="yes">
 <attribute name="VALUE" x="129.54" y="134.62" size="1.778" layer="96"/>
 </instance>
-<instance part="S2" gate="G$1" x="243.84" y="134.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="251.46" y="107.95" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="248.92" y="107.95" size="1.778" layer="96" rot="R270" align="center-left"/>
+<instance part="R11" gate="G$1" x="241.3" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="234.95" y="166.37" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="237.49" y="166.37" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="R11" gate="G$1" x="241.3" y="170.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="234.95" y="184.15" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="237.49" y="184.15" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="C11" gate="G$1" x="256.54" y="157.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="255.27" y="153.67" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="250.19" y="153.67" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="C11" gate="G$1" x="256.54" y="165.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="260.35" y="161.29" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="255.27" y="161.29" size="1.778" layer="96" rot="R180" align="center-left"/>
-</instance>
-<instance part="GND19" gate="1" x="259.08" y="147.32" smashed="yes">
-<attribute name="VALUE" x="256.54" y="144.78" size="1.778" layer="96"/>
+<instance part="GND19" gate="1" x="259.08" y="139.7" smashed="yes">
+<attribute name="VALUE" x="256.54" y="137.16" size="1.778" layer="96"/>
 </instance>
 <instance part="J1" gate="G$1" x="22.86" y="55.88" smashed="yes">
 <attribute name="NAME" x="54.61" y="63.5" size="1.778" layer="95" align="center-left"/>
@@ -2236,9 +2131,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <attribute name="NAME" x="146.05" y="69.85" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="146.05" y="67.31" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="+3V17" gate="G$1" x="177.8" y="63.5" smashed="yes" rot="R270">
-<attribute name="VALUE" x="182.118" y="63.5" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND15" gate="1" x="119.38" y="66.04" smashed="yes" rot="R180">
 <attribute name="VALUE" x="121.92" y="68.58" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -2256,13 +2148,9 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <instance part="GND17" gate="1" x="170.18" y="10.16" smashed="yes" rot="R90">
 <attribute name="VALUE" x="172.72" y="7.62" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J2" gate="G$1" x="195.58" y="40.64" smashed="yes">
-<attribute name="NAME" x="186.69" y="50.8" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="186.69" y="48.26" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="C8" gate="G$1" x="175.26" y="33.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="168.91" y="34.29" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="168.91" y="29.21" size="1.778" layer="96" rot="R270" align="center-left"/>
+<instance part="C8" gate="G$1" x="172.72" y="35.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="176.53" y="34.29" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="176.53" y="29.21" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 <instance part="OLED" gate="G$1" x="243.84" y="50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="245.11" y="40.64" size="1.778" layer="95" rot="R180" align="center-left"/>
@@ -2271,31 +2159,8 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <instance part="IC5" gate="G$1" x="314.96" y="66.04" smashed="yes">
 <attribute name="VALUE" x="341.63" y="71.12" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="J4" gate="G$1" x="284.48" y="58.42" smashed="yes">
-<attribute name="NAME" x="288.29" y="68.58" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="288.29" y="66.04" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="+3V12" gate="G$1" x="279.4" y="68.58" smashed="yes">
-<attribute name="VALUE" x="281.178" y="71.12" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND11" gate="1" x="353.06" y="55.88" smashed="yes">
 <attribute name="VALUE" x="350.52" y="53.34" size="1.778" layer="96"/>
-</instance>
-<instance part="IC6" gate="G$1" x="38.1" y="144.78" smashed="yes">
-<attribute name="VALUE" x="85.09" y="149.86" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="GND13" gate="1" x="33.02" y="149.86" smashed="yes" rot="R180">
-<attribute name="VALUE" x="35.56" y="152.4" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R13" gate="G$1" x="30.48" y="104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="24.13" y="118.11" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="26.67" y="118.11" size="1.778" layer="96" rot="R90" align="center-left"/>
-</instance>
-<instance part="+3V21" gate="G$1" x="40.64" y="99.06" smashed="yes" rot="R270">
-<attribute name="VALUE" x="43.18" y="97.282" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="+3V14" gate="G$1" x="22.86" y="147.32" smashed="yes">
-<attribute name="VALUE" x="24.638" y="149.86" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="+3V11" gate="G$1" x="38.1" y="248.92" smashed="yes">
 <attribute name="VALUE" x="39.878" y="251.46" size="1.778" layer="96" rot="R180"/>
@@ -2309,8 +2174,8 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <instance part="+3V18" gate="G$1" x="154.94" y="185.42" smashed="yes">
 <attribute name="VALUE" x="156.718" y="187.96" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V20" gate="G$1" x="241.3" y="195.58" smashed="yes">
-<attribute name="VALUE" x="243.078" y="198.12" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V20" gate="G$1" x="241.3" y="185.42" smashed="yes">
+<attribute name="VALUE" x="243.078" y="187.96" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="+3V19" gate="G$1" x="185.42" y="172.72" smashed="yes">
 <attribute name="VALUE" x="187.198" y="175.26" size="1.778" layer="96" rot="R180"/>
@@ -2342,8 +2207,30 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <instance part="+3V15" gate="G$1" x="304.8" y="76.2" smashed="yes">
 <attribute name="VALUE" x="306.578" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+1" gate="1" x="15.24" y="66.04" smashed="yes">
-<attribute name="VALUE" x="12.7" y="60.96" size="1.778" layer="96" rot="R90"/>
+<instance part="J5" gate="G$1" x="200.66" y="40.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="191.77" y="33.02" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="191.77" y="35.56" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
+<instance part="S3" gate="G$1" x="294.64" y="58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="299.72978125" y="53.33021875" size="1.27245" layer="95" rot="R180"/>
+<attribute name="VALUE" x="299.72605" y="66.04906875" size="1.271509375" layer="96" rot="R180"/>
+</instance>
+<instance part="P+2" gate="1" x="281.94" y="76.2" smashed="yes">
+<attribute name="VALUE" x="281.94" y="78.74" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+1" gate="1" x="15.24" y="68.58" smashed="yes">
+<attribute name="VALUE" x="15.24" y="71.12" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+3" gate="1" x="177.8" y="63.5" smashed="yes" rot="R270">
+<attribute name="VALUE" x="182.88" y="66.04" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="S4" gate="G$1" x="154.94" y="134.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="162.56" y="115.57" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="160.02" y="115.57" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="S5" gate="G$1" x="243.84" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="251.46" y="118.11" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="248.92" y="118.11" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -2515,34 +2402,30 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <segment>
 <wire x1="132.08" y1="144.78" x2="132.08" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="S1" gate="G$1" pin="NO_1"/>
-<wire x1="152.4" y1="129.54" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="144.78" x2="132.08" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="154.94" x2="132.08" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="154.94" x2="132.08" y2="144.78" width="0.1524" layer="91"/>
 <junction x="132.08" y="144.78"/>
 <wire x1="132.08" y1="144.78" x2="132.08" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="S4" gate="G$1" pin="NO_1"/>
+<wire x1="152.4" y1="134.62" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="144.78" x2="132.08" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="256.54" y1="165.1" x2="259.08" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="165.1" x2="259.08" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="157.48" x2="259.08" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<pinref part="S2" gate="G$1" pin="COM_1"/>
-<wire x1="259.08" y1="157.48" x2="259.08" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="134.62" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="157.48" x2="259.08" y2="157.48" width="0.1524" layer="91"/>
-<junction x="259.08" y="157.48"/>
+<wire x1="259.08" y1="157.48" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="S5" gate="G$1" pin="COM_1"/>
+<wire x1="259.08" y1="144.78" x2="259.08" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="137.16" x2="243.84" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="144.78" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
+<junction x="259.08" y="144.78"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="17.78" y1="40.64" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="SHIELD_1"/>
@@ -2573,32 +2456,30 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="162.56" y1="17.78" x2="162.56" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="15.24" x2="162.56" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="10.16" x2="167.64" y2="10.16" width="0.1524" layer="91"/>
-<junction x="162.56" y="15.24"/>
-<wire x1="162.56" y1="15.24" x2="175.26" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="15.24" x2="182.88" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="15.24" x2="175.26" y2="20.32" width="0.1524" layer="91"/>
-<junction x="175.26" y="15.24"/>
-<wire x1="182.88" y1="15.24" x2="182.88" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="38.1" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="GPIO.0_/_CLK"/>
-<wire x1="38.1" y1="142.24" x2="33.02" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="142.24" x2="33.02" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="GND_TAB"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="345.44" y1="66.04" x2="353.06" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="66.04" x2="353.06" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="17.78" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="167.64" y1="10.16" x2="165.1" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="10.16" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
+<junction x="165.1" y="17.78"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="22.86" x2="172.72" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="17.78" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="43.18" x2="165.1" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="43.18" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="17.78" y1="33.02" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="GND_1"/>
+<wire x1="17.78" y1="43.18" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT" class="0">
@@ -2680,22 +2561,18 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <wire x1="243.84" y1="58.42" x2="251.46" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RESET32" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="EN"/>
-<wire x1="187.96" y1="154.94" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="COM_1"/>
-<wire x1="154.94" y1="154.94" x2="154.94" y2="129.54" width="0.1524" layer="91"/>
-<junction x="154.94" y="154.94"/>
-<label x="165.1" y="154.94" size="1.778" layer="95"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="154.94" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="INT1" class="0">
 <segment>
 <wire x1="154.94" y1="154.94" x2="154.94" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="G$1" pin="EN"/>
+<wire x1="187.96" y1="154.94" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
+<label x="165.1" y="154.94" size="1.778" layer="95"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="S4" gate="G$1" pin="COM_1"/>
+<wire x1="154.94" y1="154.94" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="134.62" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
+<junction x="154.94" y="154.94"/>
 </segment>
 </net>
 <net name="LED2" class="0">
@@ -2721,17 +2598,19 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 </net>
 <net name="GND1" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="NO_1"/>
-<wire x1="241.3" y1="134.62" x2="241.3" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="IO45"/>
-<wire x1="220.98" y1="160.02" x2="241.3" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="160.02" x2="241.3" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<junction x="241.3" y="160.02"/>
-<junction x="241.3" y="165.1"/>
-<wire x1="241.3" y1="165.1" x2="241.3" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="157.48" x2="241.3" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="165.1" x2="243.84" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="157.48" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="IO45"/>
+<wire x1="220.98" y1="160.02" x2="233.68" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="160.02" x2="233.68" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="149.86" x2="241.3" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="149.86" x2="241.3" y2="157.48" width="0.1524" layer="91"/>
+<junction x="241.3" y="157.48"/>
+<pinref part="S5" gate="G$1" pin="NO_1"/>
+<wire x1="241.3" y1="137.16" x2="241.3" y2="149.86" width="0.1524" layer="91"/>
+<junction x="241.3" y="149.86"/>
 </segment>
 </net>
 <net name="RST-RA" class="0">
@@ -2742,29 +2621,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 </segment>
 </net>
 <net name="+3V3" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="58.42" x2="279.4" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="58.42" x2="279.4" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="+3V12" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="104.14" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="+3V21" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="VDD"/>
-<wire x1="38.1" y1="132.08" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="132.08" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="132.08" x2="22.86" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="VREGIN"/>
-<wire x1="38.1" y1="129.54" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="129.54" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
-<junction x="25.4" y="132.08"/>
-<pinref part="+3V14" gate="G$1" pin="+3V3"/>
-</segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="241.3" x2="38.1" y2="246.38" width="0.1524" layer="91"/>
@@ -2788,7 +2644,7 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <pinref part="+3V18" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<wire x1="241.3" y1="187.96" x2="241.3" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="177.8" x2="241.3" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="+3V20" gate="G$1" pin="+3V3"/>
 </segment>
@@ -2872,23 +2728,11 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <wire x1="20.32" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="GND_1"/>
-<wire x1="22.86" y1="43.18" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="43.18" x2="17.78" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="DP1" class="0">
 <segment>
 <label x="165.1" y="142.24" size="1.778" layer="95"/>
 <pinref part="IC2" gate="G$1" pin="IO15"/>
 <wire x1="165.1" y1="142.24" x2="187.96" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="D+"/>
-<wire x1="38.1" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91"/>
-<label x="27.94" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="DP1"/>
@@ -2906,28 +2750,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <pinref part="J1" gate="G$1" pin="DN1"/>
 <wire x1="22.86" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
 <label x="17.78" y="48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="D-"/>
-<wire x1="38.1" y1="134.62" x2="27.94" y2="134.62" width="0.1524" layer="91"/>
-<label x="27.94" y="134.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="175.26" y1="63.5" x2="167.64" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="+3V17" gate="G$1" pin="+3V3"/>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="63.5" x2="162.56" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="58.42" x2="167.64" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="63.5" x2="167.64" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="71.12" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="VDD"/>
-<wire x1="121.92" y1="22.86" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="22.86" x2="137.16" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="58.42" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
-<junction x="167.64" y="63.5"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -2962,39 +2784,26 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <wire x1="119.38" y1="17.78" x2="144.78" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND3" class="0">
-<segment>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="33.02" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="40.64" x2="195.58" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="+BATT" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="284.48" y1="55.88" x2="274.32" y2="55.88" width="0.1524" layer="91"/>
-<label x="274.32" y="55.88" size="1.778" layer="95"/>
+<label x="271.78" y="58.42" size="1.778" layer="95"/>
+<pinref part="S3" gate="G$1" pin="2"/>
+<wire x1="287.02" y1="58.42" x2="271.78" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="3"/>
 <pinref part="IC5" gate="G$1" pin="IN"/>
-<wire x1="304.8" y1="58.42" x2="309.88" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="58.42" x2="309.88" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="EN"/>
 <wire x1="309.88" y1="58.42" x2="314.96" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="66.04" x2="309.88" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="66.04" x2="309.88" y2="58.42" width="0.1524" layer="91"/>
 <junction x="309.88" y="58.42"/>
+<pinref part="S3" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="RXD" class="0">
-<segment>
-<pinref part="IC6" gate="G$1" pin="RXD"/>
-<wire x1="88.9" y1="132.08" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
-<label x="93.98" y="132.08" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="RXD0"/>
 <wire x1="220.98" y1="134.62" x2="231.14" y2="134.62" width="0.1524" layer="91"/>
@@ -3003,25 +2812,18 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 </net>
 <net name="TXD" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="TXD"/>
-<wire x1="88.9" y1="129.54" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
-<label x="93.98" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="TXD0"/>
 <wire x1="220.98" y1="132.08" x2="231.14" y2="132.08" width="0.1524" layer="91"/>
 <label x="226.06" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="IC6" gate="G$1" pin="RSTB"/>
-<wire x1="38.1" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="124.46" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="+5V" class="0">
+<segment>
+<pinref part="P+2" gate="1" pin="+5V"/>
+<pinref part="S3" gate="G$1" pin="4"/>
+<wire x1="281.94" y1="73.66" x2="281.94" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="60.96" x2="287.02" y2="60.96" width="0.1524" layer="91"/>
+</segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="VBUS_2"/>
 <wire x1="22.86" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
@@ -3029,8 +2831,31 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/cp2102n-
 <pinref part="J1" gate="G$1" pin="VBUS_1"/>
 <wire x1="15.24" y1="55.88" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="15.24" y1="63.5" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="66.04" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
 <junction x="15.24" y="55.88"/>
+</segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="63.5" x2="162.56" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="58.42" x2="167.64" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="63.5" x2="167.64" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="71.12" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="VDD"/>
+<wire x1="121.92" y1="22.86" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="22.86" x2="137.16" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="58.42" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
+<junction x="167.64" y="63.5"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<wire x1="175.26" y1="63.5" x2="167.64" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="35.56" x2="172.72" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="40.64" x2="180.34" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
