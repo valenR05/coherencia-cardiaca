@@ -1773,7 +1773,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="CONECTOR-BATERIA" library="1769" deviceset="1769" device=""/>
+<part name="BATT" library="1769" deviceset="1769" device=""/>
 <part name="SWITCH" library="PCM13SMTR" deviceset="PCM13SMTR" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -2052,7 +2052,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <instance part="+3V15" gate="G$1" x="17.78" y="-17.78" smashed="yes">
 <attribute name="VALUE" x="19.558" y="-15.24" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="CONECTOR-BATERIA" gate="G$1" x="-86.36" y="-53.34" smashed="yes" rot="R180">
+<instance part="BATT" gate="G$1" x="-86.36" y="-53.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="-77.47" y="-63.5" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="-95.25" y="-58.42" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
@@ -2319,7 +2319,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="-127" y1="-55.88" x2="-127" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="CONECTOR-BATERIA" gate="G$1" pin="2"/>
+<pinref part="BATT" gate="G$1" pin="2"/>
 <wire x1="-106.68" y1="-50.8" x2="-127" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -2579,7 +2579,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="-114.3" y1="-58.42" x2="-114.3" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="CONECTOR-BATERIA" gate="G$1" pin="1"/>
+<pinref part="BATT" gate="G$1" pin="1"/>
 <wire x1="-114.3" y1="-53.34" x2="-106.68" y2="-53.34" width="0.1524" layer="91"/>
 <label x="-114.3" y="-53.34" size="1.778" layer="95"/>
 </segment>
