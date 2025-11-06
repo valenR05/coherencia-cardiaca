@@ -6805,6 +6805,9 @@
 <wire x1="43.347625" y1="41.322034375" x2="43.347625" y2="80.362615625" width="1.27" layer="46"/>
 <wire x1="43.39026875" y1="80.27733125" x2="43.39026875" y2="80.4052625" width="1.27" layer="46"/>
 <wire x1="43.39026875" y1="80.4052625" x2="43.92331875" y2="80.9383125" width="1.27" layer="46"/>
+<text x="77.462825" y="6.26866875" size="0.8128" layer="25">Valentina Restrepo
+Kevin Moreno
+David Betancur </text>
 </plain>
 <libraries>
 <library name="TS321IDBVR">
@@ -11044,6 +11047,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
