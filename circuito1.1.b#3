@@ -7772,7 +7772,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C0805J104K1RACAUTO" x="134.73" y="-42.54" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="134.73" y="-42.54" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="134.73" y="-42.54" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="82.9775" y="35.438" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="79.56598125" y="33.7535625" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="82.66" y="33.66" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C7" library="C0805J104K1RACAUTO" package="CAPC2012X140N" value="10U" x="79.6565" y="14.487" smashed="yes" rot="R180">
@@ -8619,11 +8619,11 @@ design rules under a new name.</description>
 <contactref element="PPG" pad="9"/>
 <contactref element="PPG" pad="10"/>
 <contactref element="C6" pad="2"/>
-<wire x1="87.08" y1="39.44" x2="87.08" y2="34.95711875" width="0.3048" layer="1"/>
-<wire x1="85.83688125" y1="33.714" x2="83.984" y2="33.714" width="0.3048" layer="1"/>
+<wire x1="87.08" y1="39.44" x2="87.08" y2="34.95711875" width="0.4064" layer="1"/>
+<wire x1="85.83688125" y1="33.714" x2="83.984" y2="33.714" width="0.4064" layer="1"/>
 <wire x1="83.984" y1="33.714" x2="83.73" y2="33.46" width="0.1524" layer="1"/>
 <wire x1="83.67" y1="33.46" x2="83.47" y2="33.66" width="0.1524" layer="1"/>
-<wire x1="87.08" y1="34.95711875" x2="85.83688125" y2="33.714" width="0.3048" layer="1"/>
+<wire x1="87.08" y1="34.95711875" x2="85.83688125" y2="33.714" width="0.4064" layer="1"/>
 <wire x1="83.73" y1="33.46" x2="83.67" y2="33.46" width="0.1524" layer="1"/>
 <wire x1="87.08" y1="39.44" x2="86.28" y2="39.44" width="0.3048" layer="1"/>
 <contactref element="C14" pad="2"/>
@@ -8634,7 +8634,13 @@ design rules under a new name.</description>
 <wire x1="75.809975" y1="23.01378125" x2="81.76121875" y2="23.01378125" width="0.4064" layer="1"/>
 <wire x1="81.76121875" y1="23.01378125" x2="81.915" y2="22.86" width="0.4064" layer="1"/>
 <wire x1="87.036403125" y1="39.483596875" x2="87.08" y2="39.44" width="0.4064" layer="1"/>
-<wire x1="87.036403125" y1="39.483596875" x2="87.88" y2="41.84" width="0" layer="19" extent="1-1"/>
+<wire x1="87.88" y1="41.84" x2="87.88" y2="43.253053125" width="0.4064" layer="1"/>
+<wire x1="87.88" y1="43.253053125" x2="87.91060625" y2="43.283659375" width="0.4064" layer="1"/>
+<wire x1="87.91060625" y1="43.283659375" x2="87.91060625" y2="43.30498125" width="0.4064" layer="1"/>
+<wire x1="87.91060625" y1="43.30498125" x2="87.1430125" y2="44.072575" width="0.4064" layer="1"/>
+<wire x1="87.1430125" y1="44.072575" x2="85.842371875" y2="44.072575" width="0.4064" layer="1"/>
+<wire x1="83.47" y1="41.700203125" x2="83.47" y2="33.66" width="0.4064" layer="1"/>
+<wire x1="85.842371875" y1="44.072575" x2="83.47" y2="41.700203125" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="USB-C" pad="A5"/>

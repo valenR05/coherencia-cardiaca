@@ -8138,7 +8138,6 @@ design rules under a new name.</description>
 <wire x1="58.406" y1="48.756" x2="58.406" y2="49.163" width="0.1524" layer="1"/>
 <wire x1="58.559" y1="48.756" x2="58.406" y2="48.756" width="0.1524" layer="1"/>
 <wire x1="53.978" y1="44.45" x2="53.909" y2="44.519" width="0.1524" layer="1"/>
-<wire x1="53.909" y1="44.519" x2="54.541" y2="44.519" width="0.1524" layer="1"/>
 <wire x1="62.23" y1="44.935" x2="62.187" y2="44.978" width="0.1524" layer="1"/>
 <wire x1="53.909" y1="44.519" x2="53.909" y2="43.346290625" width="0.3048" layer="1"/>
 <wire x1="55.980290625" y1="41.275" x2="53.909" y2="43.346290625" width="0.3048" layer="1"/>
@@ -8439,7 +8438,6 @@ design rules under a new name.</description>
 <contactref element="R3" pad="1"/>
 <contactref element="C4" pad="2"/>
 <contactref element="AMP" pad="3"/>
-<wire x1="47.6295" y1="43.0575" x2="47.6295" y2="42.1845" width="0.1524" layer="1"/>
 <wire x1="47.6295" y1="42.1845" x2="47.6295" y2="43.3930625" width="0.3048" layer="1"/>
 <wire x1="48.7554375" y1="44.519" x2="51.409" y2="44.519" width="0.3048" layer="1"/>
 <wire x1="47.6295" y1="43.3930625" x2="48.7554375" y2="44.519" width="0.3048" layer="1"/>
@@ -8453,7 +8451,6 @@ design rules under a new name.</description>
 <contactref element="ESP32-S3" pad="38"/>
 <contactref element="AMP" pad="1"/>
 <contactref element="R7" pad="1"/>
-<wire x1="56.515" y1="48.765" x2="56.506" y2="48.756" width="0.1524" layer="1"/>
 <wire x1="48.26" y1="52.0653375" x2="52.07" y2="55.8753375" width="0.3048" layer="1"/>
 <wire x1="48.26" y1="47.800234375" x2="48.26" y2="52.0653375" width="0.3048" layer="1"/>
 <wire x1="52.07" y1="73.025" x2="53.953678125" y2="74.908678125" width="0.3048" layer="1"/>
@@ -8472,11 +8469,12 @@ design rules under a new name.</description>
 <wire x1="51.409" y1="46.419" x2="51.232" y2="46.419" width="0.3048" layer="1"/>
 <wire x1="51.409" y1="46.419" x2="51.345" y2="46.355" width="0.3048" layer="1"/>
 <wire x1="51.345" y1="46.355" x2="49.705234375" y2="46.355" width="0.3048" layer="1"/>
-<wire x1="56.506" y1="48.756" x2="56.47076875" y2="48.72076875" width="0.3048" layer="1"/>
 <wire x1="52.3028625" y1="48.72076875" x2="51.407340625" y2="47.825246875" width="0.3048" layer="1"/>
 <wire x1="51.407340625" y1="47.825246875" x2="51.407340625" y2="46.420659375" width="0.3048" layer="1"/>
 <wire x1="51.407340625" y1="46.420659375" x2="51.409" y2="46.419" width="0.3048" layer="1"/>
 <wire x1="56.47076875" y1="48.72076875" x2="52.3028625" y2="48.72076875" width="0.3048" layer="1"/>
+<wire x1="56.506" y1="48.756" x2="56.515" y2="48.765" width="0.1524" layer="1"/>
+<wire x1="56.506" y1="48.756" x2="56.47076875" y2="48.72076875" width="0.1524" layer="1"/>
 </signal>
 <signal name="TOUCH1">
 <contactref element="ESP32-S3" pad="4"/>
@@ -8882,9 +8880,9 @@ design rules under a new name.</description>
 <contactref element="C5" pad="2"/>
 <wire x1="86.822953125" y1="29.78683125" x2="86.822953125" y2="32.0469625" width="0.3048" layer="1"/>
 <wire x1="86.822953125" y1="32.0469625" x2="86.822953125" y2="33.091515625" width="0.3048" layer="1"/>
-<wire x1="86.822953125" y1="33.091515625" x2="88.187790625" y2="34.456353125" width="0.3048" layer="1"/>
-<wire x1="88.187790625" y1="34.456353125" x2="88.187790625" y2="39.132209375" width="0.3048" layer="1"/>
-<wire x1="88.187790625" y1="39.132209375" x2="87.88" y2="39.44" width="0.3048" layer="1"/>
+<wire x1="86.822953125" y1="33.091515625" x2="87.876040625" y2="34.144603125" width="0.3048" layer="1"/>
+<wire x1="87.88" y1="39.44" x2="87.876040625" y2="39.436040625" width="0.3048" layer="1"/>
+<wire x1="87.876040625" y1="39.436040625" x2="87.876040625" y2="34.144603125" width="0.3048" layer="1"/>
 <contactref element="REGP" pad="3"/>
 <wire x1="52.1545625" y1="21.709528125" x2="58.703196875" y2="21.709528125" width="0.3048" layer="1"/>
 <wire x1="71.1728375" y1="27.889178125" x2="71.1728375" y2="28.081075" width="0.3048" layer="1"/>
@@ -8912,16 +8910,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="5,1,817d9ce68e34093b"/>
-<approved hash="5,1,af97dea2fb60202f"/>
-<approved hash="5,1,eecf7de726d25d4a"/>
-<approved hash="5,1,cd519502a2259001"/>
-<approved hash="5,1,9fd273c2413a6351"/>
-<approved hash="5,1,804f46507b39da4a"/>
-<approved hash="4,1,cc2ffc805711ccb7"/>
-<approved hash="4,1,ba3e441418f3bb7b"/>
-<approved hash="4,1,12bdad4f32c17e34"/>
-<approved hash="4,1,eeb6ef461bc0d2cc"/>
 <approved hash="3,1,11987176df70bf9e"/>
 <approved hash="3,1,11203a6550677b22"/>
 <approved hash="3,1,6860483ae638c662"/>
@@ -11042,7 +11030,6 @@ design rules under a new name.</description>
 <approved hash="4,1,01ae6c1b47d38ac0"/>
 <approved hash="4,1,e4ba17ef659d3316"/>
 <approved hash="4,1,51cc8b06db8ce58f"/>
-<approved hash="21,19,d390d192d192d390"/>
 </errors>
 </board>
 </drawing>
